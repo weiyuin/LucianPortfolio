@@ -1,0 +1,58 @@
+/* General Settings */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Profile Card Styling */
+.profile-card {
+    max-width: 480px; /* Chiều rộng tối đa trên PC, mobile sẽ tự co lại */
+    margin: 60px auto 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    overflow: visible; /* Để hiển thị avatar lồi ra ngoài */
+}
+
+/* Avatar Styling */
+.avatar {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: -65px; /* Kéo avatar lên trên */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    background-color: #eee;
+}
+
+/* Contact Box Styling */
+.contact-box {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.contact-box:hover {
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+}
+
+.wechat-box {
+    background-color: #f8f9fa;
+    border: 1px dashed #ced4da;
+}
+
+/* Icon Circle in Documents */
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
