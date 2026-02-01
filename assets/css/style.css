@@ -56,3 +56,33 @@ body {
     align-items: center;
     justify-content: center;
 }
+/* Manual Card Styling (Phần VisionAssembly) */
+.manual-card {
+    background-color: #f8f9fa; /* Màu nền xám nhẹ */
+    border: 1px solid #e9ecef;
+    transition: all 0.2s ease;
+}
+
+.manual-card:hover {
+    background-color: #fff;
+    border-color: #0d6efd; /* Viền xanh khi di chuột */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transform: translateY(-2px); /* Hiệu ứng nhấc nhẹ lên */
+}
+
+.flag-icon {
+    width: 32px;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Chỉnh lại icon circle để icon Excel nằm giữa đẹp hơn */
+.icon-circle {
+    min-width: 45px;
+    height: 45px;
+    border-radius: 12px; /* Bo góc vuông mềm thay vì tròn hẳn */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f3f5 !important;
+}
