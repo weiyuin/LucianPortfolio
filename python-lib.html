@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="GeniVision.ico">
     
     <style>
         /* --- CSS TÙY CHỈNH --- */
@@ -109,7 +110,7 @@
         {
             name: "Thư viện VisionAssembly",  // Tên hiển thị trên Menu
             folder: "VisionAssembly",         // Tên thư mục thật trong assets/docs/code/
-            icon: "fas fa-eye",
+            icon: "fas fa-book",            // Icon FontAwesome
             files: [
                 { title: "GvGluePathAOI", filename: "GvGluePathAOI.py" },
                 { title: "ScImageShow", filename: "ScImageShow.py" },
@@ -123,23 +124,29 @@
         {
             name: "H820-M03的脚本",
             folder: "H820-M03",
-            icon: "fas fa-network-wired",
+            icon: "fas fa-cogs",
             files: [
                 { title: "接收通信", filename: "接收通信.py" },
-                { title: "起始点-接收", filename: "起始点-接收.py" },
+                { title: "起始点-发送", filename: "起始点-发送.py" },
                 { title: "定位计算", filename: "定位计算.py" },
                 { title: "复检ROI生成", filename: "复检ROI生成.py" },
                 { title: "生成Blob的ROI", filename: "生成Blob的ROI.py" },
                 { title: "防呆显示", filename: "防呆显示.py" },
-                { title: "复检结果显示", filename: "复检结果显示.py" }
+                { title: "复检结果显示", filename: "复检结果显示.py" },
+                { title: "发送存储脚本", filename: "发送存储脚本.py" },
+                { title: "补偿缺胶FOF", filename: "补偿缺胶FOF.py" },
             ]
         },
         {
-            name: "Others",
-            folder: "AI",
-            icon: "fas fa-brain",
+            name: "校针脚本",
+            folder: "校针",
+            icon: "fas fa-bullseye",
             files: [
-                { title: "YOLOv8 Inference", filename: "yolo_infer.py" }
+                { title: "校针计算", filename: "校针计算.py" },
+                { title: "校针计算偏差", filename: "校针计算偏差.py" },
+                { title: "校针BLOB状态", filename: "校针BLOB状态.py" },
+                { title: "校针记录", filename: "校针记录.py" },
+                { title: "校针判断", filename: "校针判断.py" },
             ]
         }
     ];
