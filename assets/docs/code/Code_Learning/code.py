@@ -37,8 +37,7 @@ Line1 = GvVisionAssembly.scLine(point,Y_axis.GetRotation())
 ScImageShow.ImageShowLine(ScImageShow,guiArray,Line1,[0, 255, 0],1) #显示直线 Line1
 
 #Tạo 1 đường thẳng Line2 đi qua Point và vuông góc với Line1
-Line1_angle = Line1.GetAngle
-Line2 = GvVisionAssembly.scLine(point,Line1.GetRotation())
+Line2 = GvVisionAssembly.scLine(point,GvVisionAssembly.scRadian(beta + math.pi / 2.0))
 #Tạo điểm dựa trên tâm O và xoay theo góc theta.:
 # X_new = Cx + Lx * cos(theta) - Ly * sin(theta)
 # Y_new = Cy + Lx * sin(theta) + Ly * cos(theta)
