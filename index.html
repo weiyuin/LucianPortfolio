@@ -1,119 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lucian | IT & Machine Vision</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="theme-color" content="#087f72">
+    <meta name="description" content="Lucian — IT & Machine Vision. Tài liệu kỹ thuật, hướng dẫn VisionAssembly và thư viện Python.">
+    <title>IT & Machine Vision | Lucian</title>
     <link rel="icon" type="image/x-icon" href="GeniVision.ico">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" defer></script>
+
 </head>
-<body>
-
-<div class="container">
-    <div class="card profile-card bg-white text-center">
-        <div class="text-center">
-            <img src="assets/images/avatar.jpg" alt="Lucian" class="avatar">
-        </div>
-        
-        <div class="card-body px-4 pb-4">
-            <h2 class="mt-3 fw-bold">LUCIAN</h2>
-            <p class="text-muted mb-3">IT & Machine Vision Specialist</p>
-            
-            <hr class="my-4">
-
-            <h6 class="text-start fw-bold mb-3 text-uppercase text-secondary" style="font-size: 0.8rem;">
-                <i class="fas fa-microchip me-1"></i> VisionAssembly
-            </h6>
-            
-            <div class="row g-2 mb-3">
-                <div class="col-12">
-                    <a href="https://weiyuin.github.io/Website-for-Vision-usage-instructions/" class="manual-card d-flex align-items-center p-3 rounded text-decoration-none">
-                        <img src="https://flagcdn.com/w40/vn.png" alt="VN" class="flag-icon me-3 shadow-sm">
-                        <div class="text-start flex-grow-1">
-                            <div class="fw-bold text-dark">Hướng dẫn sử dụng</div>
-                            <small class="text-muted">Phiên bản Tiếng Việt</small>
-                        </div>
-                        <i class="fas fa-chevron-right text-muted"></i>
-                    </a>
-                </div>
-
-                <div class="col-12">
-                    <a href="https://weiyuin.github.io/Luster-MachineVision/" class="manual-card d-flex align-items-center p-3 rounded text-decoration-none mt-2">
-                        <img src="https://flagcdn.com/w40/cn.png" alt="CN" class="flag-icon me-3 shadow-sm">
-                        <div class="text-start flex-grow-1">
-                            <div class="fw-bold text-dark">VisionAssembly 用户手册</div>
-                            <small class="text-muted">中文版 (Chinese Ver)</small>
-                        </div>
-                        <i class="fas fa-chevron-right text-muted"></i>
-                    </a>
-                </div>
-            </div>
-
-            <a href="documents.html" class="btn btn-primary w-100 py-3 fw-bold shadow-sm rounded-3 mb-4">
-                <i class="fas fa-folder-open me-2"></i> INTERNAL DOCUMENTS
-                <br><small class="fw-normal" style="font-size: 0.75rem;">(SOP & BUYOFF Files)</small>
-            </a>
-            <a href="https://drive.google.com/file/d/1rU5vVySZKCFi-18LdzeBBHEzUMGbNO8u/view?usp=drive_link" class="btn btn-primary w-100 py-3 fw-bold shadow-sm rounded-3 mb-4">
-                <i class="fas fa-folder-open me-2"></i> Download Lucian Software Tools
-                <br><small class="fw-normal" style="font-size: 0.75rem;">(Communication Software - Calibration)</small>
-            </a>
-
-            <hr class="my-4">
-
-            <h6 class="text-start fw-bold mb-3 text-uppercase text-secondary" style="font-size: 0.8rem;">Contact Info</h6>
-            
-            <div class="contact-box mb-3" onclick="copyText('0876 819 700', 'Zalo')">
-                <i class="fas fa-phone-square-alt text-primary fa-2x"></i>
-                <div class="ms-3 text-start flex-grow-1">
-                    <div class="fw-bold">Zalo</div>
-                    <small class="text-muted">0876 819 700</small>
-                </div>
-                <i class="far fa-copy text-muted small"></i>
-            </div>
-
-            <div class="wechat-box p-3 rounded mb-3">
-                <div class="d-flex align-items-center mb-2" onclick="copyText('weiyuin_vn', 'WeChat ID')">
-                    <i class="fab fa-weixin text-success fa-2x"></i>
-                    <div class="ms-3 text-start flex-grow-1">
-                        <div class="fw-bold">WeChat ID</div>
-                        <small class="text-success fw-bold">weiyuin_vn</small>
-                    </div>
-                    <i class="far fa-copy text-muted small"></i>
-                </div>
-                <img src="assets/images/wechat-qr.jpg" alt="WeChat QR" class="img-fluid rounded border mt-2" style="max-width: 300px;">
-            </div>
-
-            <hr class="my-4">
-
-            <h6 class="text-start fw-bold mb-3 text-uppercase text-secondary" style="font-size: 0.8rem;">Social Media</h6>
-            <div class="d-grid gap-2 mb-4">
-                <a href="https://github.com/weiyuin" class="btn btn-dark rounded-pill border-0" style="background-color: #333;">
-                    <i class="fab fa-github me-2"></i>GitHub
-                </a>
-                
-                <a href="https://www.facebook.com/WeiYuin.VN" class="btn btn-outline-primary rounded-pill"><i class="fab fa-facebook-f me-2"></i>Facebook</a>
-                <a href="https://www.instagram.com/_.weiyuin/" class="btn btn-outline-danger rounded-pill"><i class="fab fa-instagram me-2"></i>Instagram</a>
-                <a href="https://www.tiktok.com/@_.weiyuin" class="btn btn-light border rounded-pill"><i class="fab fa-tiktok me-2"></i>TikTok</a>
-            </div>
-
-        </div>
+<body class="page-home">
+<a class="skip-link" href="#main">Đi đến nội dung</a>
+<aside class="sidebar" aria-label="Điều hướng chính">
+    <a class="brand" href="index.html" aria-label="Lucian — Trang chủ"><span class="brand-mark"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span><span>lucian<span class="brand-dot">.</span><small>IT & MACHINE VISION</small></span></a>
+    <div class="nav-section-label">WORKSPACE</div>
+    <nav class="primary-nav"><a class="nav-link" href="index.html" aria-current="page"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Tổng quan</span><svg class="icon nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></a><a class="nav-link" href="documents.html"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h5l2 2h7a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/><path d="M3 10h18"/></svg><span>Tài liệu</span><svg class="icon nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></a><a class="nav-link" href="python-lib.html"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-2 16"/></svg><span>Thư viện Python</span><svg class="icon nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></a></nav>
+    <div class="sidebar-secondary"><div class="nav-section-label">VISIONASSEMBLY</div>
+        <a class="nav-link" href="https://weiyuin.github.io/Website-for-Vision-usage-instructions/"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v16M3 3c4-1 7 0 9 2 2-2 5-3 9-2v16c-4-1-7 0-9 2-2-2-5-3-9-2Z"/></svg><span>Hướng dẫn tiếng Việt</span><svg class="icon small-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14m0-11H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"/></svg></a>
+        <a class="nav-link" href="https://weiyuin.github.io/Luster-MachineVision/"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v16M3 3c4-1 7 0 9 2 2-2 5-3 9-2v16c-4-1-7 0-9 2-2-2-5-3-9-2Z"/></svg><span lang="zh">中文使用手册</span><svg class="icon small-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14m0-11H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"/></svg></a>
     </div>
-</div>
-
-<div class="toast-container position-fixed bottom-0 end-0 p-3">
-  <div id="copyToast" class="toast align-items-center text-white bg-dark border-0" role="alert" aria-live="assertive" aria-atomic="true">
-    <div class="d-flex">
-      <div class="toast-body">
-        Copied to clipboard!
-      </div>
-      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+    <div class="sidebar-note"><span class="status-dot"></span><span>Build. Learn. Share.<small>Một góc nhỏ cho công nghệ.</small></span></div>
+    <a class="sidebar-profile" href="index.html#contact"><img src="assets/images/avatar.jpg" alt="" width="38" height="38"><span><strong>Lucian</strong><small>IT & Machine Vision Specialist</small></span><svg class="icon small-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14m0-11H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"/></svg></a>
+</aside>
+<div class="app-shell">
+    <header class="topbar"><div class="breadcrumb"><span>Workspace</span><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg><span>Tổng quan</span></div><a class="topbar-link" href="https://github.com/weiyuin"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-2 16"/></svg><span>GitHub</span><svg class="icon small-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14m0-11H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"/></svg></a></header>
+    <main id="main" class="main-content" tabindex="-1">
+<section class="home-hero">
+    <div class="home-intro"><p class="eyebrow"><span class="status-dot"></span> IT & MACHINE VISION</p><h1>Xin chào,<br>mình là <span>Lucian.</span></h1><p class="hero-description">Một không gian chia sẻ tài liệu, công cụ và những dòng code cho công việc Machine Vision.</p>
+    <div class="hero-actions"><a class="button button-primary" href="documents.html">Khám phá tài liệu <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a><a class="button button-quiet" href="#contact">Kết nối với mình <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14m0-11H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"/></svg></a></div>
+    <div class="hero-topics"><span>Machine Vision</span><span>Python</span><span>Automation</span></div></div>
+    <div class="portrait"><img src="assets/images/avatar.jpg" alt="Lucian tại góc làm việc với hệ thống máy tính" width="704" height="695"><div class="portrait-caption"><span class="status-dot"></span><span>Behind the code<small>Luôn học hỏi. Luôn xây dựng.</small></span><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-2 16"/></svg></div></div>
+</section>
+<section class="resource-section" aria-labelledby="resources-title">
+    <div class="section-heading"><div><p class="eyebrow">EXPLORE THE WORKSPACE</p><h2 id="resources-title">Tài nguyên dành cho bạn</h2></div><span class="muted">Từ lý thuyết đến thực hành</span></div>
+    <div class="resource-grid">
+        <a class="resource-card" href="documents.html"><span class="resource-icon teal"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h5l2 2h7a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/><path d="M3 10h18"/></svg></span><span class="resource-number">01</span><h3>Thư viện tài liệu</h3><p>SOP, Visionflow, kiến thức nền tảng và báo cáo Buyoff.</p><span class="text-link">Khám phá thư viện <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></a>
+        <a class="resource-card" href="python-lib.html"><span class="resource-icon blue"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-2 16"/></svg></span><span class="resource-number">02</span><h3>Thư viện Python</h3><p>VisionAssembly, xử lý ảnh và các script cho từng dự án.</p><span class="text-link">Xem source code <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></a>
+        <a class="resource-card" href="https://drive.google.com/file/d/1rU5vVySZKCFi-18LdzeBBHEzUMGbNO8u/view?usp=drive_link"><span class="resource-icon amber"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4"/></svg></span><span class="resource-number">03</span><h3>Lucian Software Tools</h3><p>Bộ công cụ giao tiếp thiết bị và hiệu chuẩn hệ thống.</p><span class="text-link">Tải bộ công cụ <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14m0-11H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"/></svg></span></a>
     </div>
-  </div>
+</section>
+<div class="home-bottom">
+    <section class="panel manual-panel" aria-labelledby="manual-title"><div class="section-heading"><div><p class="eyebrow">GET STARTED</p><h2 id="manual-title">VisionAssembly</h2></div><svg class="icon section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v16M3 3c4-1 7 0 9 2 2-2 5-3 9-2v16c-4-1-7 0-9 2-2-2-5-3-9-2Z"/></svg></div><p class="muted">Tài liệu hướng dẫn sử dụng theo ngôn ngữ của bạn.</p>
+        <a class="manual-link" href="https://weiyuin.github.io/Website-for-Vision-usage-instructions/"><span class="language-badge">VI</span><span><strong>Hướng dẫn sử dụng</strong><small>Phiên bản tiếng Việt</small></span><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14m0-11H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"/></svg></a>
+        <a class="manual-link" href="https://weiyuin.github.io/Luster-MachineVision/"><span class="language-badge chinese">中</span><span><strong lang="zh">VisionAssembly 用户手册</strong><small>Phiên bản tiếng Trung · 中文版</small></span><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14m0-11H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"/></svg></a>
+        <div class="social-links" aria-label="Mạng xã hội"><a href="https://github.com/weiyuin">GitHub <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14m0-11H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"/></svg></a><a href="https://www.facebook.com/WeiYuin.VN">Facebook <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14m0-11H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"/></svg></a><a href="https://www.instagram.com/_.weiyuin/">Instagram <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14m0-11H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"/></svg></a><a href="https://www.tiktok.com/@_.weiyuin">TikTok <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14m0-11H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"/></svg></a></div>
+    </section>
+    <section class="panel contact-panel" id="contact" aria-labelledby="contact-title"><div class="section-heading"><div><p class="eyebrow">LET'S CONNECT</p><h2 id="contact-title">Giữ kết nối</h2></div><svg class="icon section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11a9 9 0 0 1-9 9H5l-3 2 1-6A9 9 0 1 1 21 11Z"/><path d="M7 11h.01M12 11h.01M17 11h.01"/></svg></div><p class="muted">Trao đổi công việc, chia sẻ ý tưởng và cùng học hỏi.</p>
+        <button class="contact-link" type="button" data-copy="0876 819 700" data-copy-label="số Zalo" aria-label="Sao chép số Zalo 0876 819 700"><span class="contact-symbol blue"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 18h4"/></svg></span><span><strong>Zalo</strong><small>0876 819 700</small></span><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></svg></button>
+        <button class="contact-link" type="button" data-copy="weiyuin_vn" data-copy-label="WeChat ID" aria-label="Sao chép WeChat ID weiyuin_vn"><span class="contact-symbol teal"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11a9 9 0 0 1-9 9H5l-3 2 1-6A9 9 0 1 1 21 11Z"/><path d="M7 11h.01M12 11h.01M17 11h.01"/></svg></span><span><strong>WeChat</strong><small>weiyuin_vn</small></span><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></svg></button>
+        <details class="qr-details"><summary>Mã QR WeChat <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></summary><img src="assets/images/wechat-qr.jpg" alt="Mã QR để kết nối WeChat với Lucian" width="260" loading="lazy"></details>
+    </section>
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/main.js"></script>
+</main>
+    <footer class="site-footer"><span>© <span data-year>2026</span> Lucian</span><span>IT & Machine Vision<span class="footer-dot">·</span>Build with curiosity.</span></footer>
+</div>
+<div class="toast" id="copyToast" role="status" aria-live="polite" aria-atomic="true" hidden><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg><span class="toast-message"></span></div>
 </body>
 </html>
