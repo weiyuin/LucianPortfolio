@@ -194,6 +194,33 @@ const libraryConfig = [
                 "filename": "标定显示.py"
             }
         ]
+    },
+    {
+        "name": "记录",
+        "folder": "Log",
+        "icon": "fas fa-graduation-cap",
+        "files": [
+            {
+                "title": "csv记录",
+                "filename": "csv记录.py"
+            },
+            {
+                "title": "LOG发送",
+                "filename": "LOG发送.py"
+            },
+            {
+                "title": "LOG接收",
+                "filename": "LOG接收.py"
+            },
+            {
+                "title": "存图路径",
+                "filename": "存图路径.py"
+            },
+            {
+                "title": "导图指令",
+                "filename": "导图指令.py"
+            }
+        ]
     }
 ];
 
