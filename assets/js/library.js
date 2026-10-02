@@ -236,9 +236,11 @@ const libraryConfig = [
         "Các script cho dự án H820-M03.",
         "Các script hiệu chuẩn và kiểm tra kim.",
         "Các script xử lý cho dự án H510.",
-        "Ví dụ và bài thực hành Python."
+        "Ví dụ và bài thực hành Python.",
+        "Các script ghi nhật ký và quản lý log.",
+        "Lượng giác và các hàm toán học cơ bản."
     ];
-    const labels = ["VisionAssembly", "H820-M03", "Hiệu chuẩn kim", "H510", "Code học tập"];
+    const labels = ["VisionAssembly", "H820-M03", "Hiệu chuẩn kim", "H510", "Code học tập","Log", "Lượng giác"];
     function icon(name) {
         const paths = {
             folder: '<path d="M3 7a2 2 0 0 1 2-2h5l2 2h7a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/>',
