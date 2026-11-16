@@ -197,13 +197,22 @@ window.SITE_DATA = {
       description: ""
     },
     {
-      id: "mau-pdf-tieng-trung",
-      title: "Mẫu: Tài liệu tiếng Trung",
+      id: "tieng-trung",
+      title: "Tiếng Trung công việc - Machine Vision",
       type: "pdf",
       categoryId: "lang-chinese",
-      path: "hoctieng/mẫu tiếng Trung 中文.pdf",
+      path: "hoctieng/tieng-trung-cong-viec-fae-machine-vision-hsk5.pdf",
       tags: ["mẫu", "tiếng Trung", "中文"],
-      description: "Tên file có khoảng trắng, tiếng Việt và chữ Trung."
+      description: "Tài liệu học tiếng Trung công việc, chuyên ngành Machine Vision, trình độ HSK5."
+    },
+    {
+      id: "tieng-anh",
+      title: "Tiếng Anh công việc - Machine Vision A2-B2",
+      type: "pdf",
+      categoryId: "lang-english",
+      path: "hoctieng/English_for_FAE_Machine_Vision_A2_to_B1_B2.pdf",
+      tags: ["mẫu", "tiếng Anh", "English"],
+      description: "Tài liệu học tiếng Anh công việc, chuyên ngành Machine Vision, trình độ A2-B2."
     }
   ],
 
