@@ -92,6 +92,8 @@ window.SITE_DATA = {
 
      CÁC MỤC DƯỚI ĐÂY LÀ FILE MẪU để kiểm tra chức năng — xóa hoặc thay
      bằng tài liệu thật của bạn. */
+  
+     // Python
   documents: [
     {
       id: "GvGluePathAOI",
@@ -163,31 +165,35 @@ window.SITE_DATA = {
       tags: ["mẫu", "记录", "ghi chú"],
       description: ""
     },
+
+
+
+    //PDF
     {
-      id: "mau-pdf-vision",
-      title: "Mẫu: Lý thuyết Vision",
-      type: "pdf",
-      categoryId: "vision-theory",
-      path: "lythuyetvision/mau-ly-thuyet-vision.pdf",
-      tags: ["mẫu", "machine vision", "lý thuyết"],
-      description: "PDF mẫu một trang."
-    },
-    {
-      id: "mau-pdf-it",
-      title: "Mẫu: Tài liệu IT",
+      id: "Python-Level0-Middle",
+      title: "Python thực chiến từ Level 0 đến Middle",
       type: "pdf",
       categoryId: "it",
-      path: "IT/mau-tai-lieu-it.pdf",
-      tags: ["mẫu", "IT", "lập trình"],
+      path: "IT/Python_Thuc_Chien_Level_0_den_Middle_High.pdf",
+      tags: ["IT", "Python", "lý thuyết"],
+      description: "Hướng dẫn thực chiến Python từ cơ bản đến trung cấp."
+    },
+    {
+      id: "Python-Level0",
+      title: "Tài liệu Python Level 0",
+      type: "pdf",
+      categoryId: "it",
+      path: "IT/PythonLevel0.pdf",
+      tags: ["Python", "IT", "lập trình"],
       description: ""
     },
     {
-      id: "mau-pdf-tieng-anh",
-      title: "Mẫu: Tài liệu tiếng Anh",
+      id: "CSharp-Level0-Middle",
+      title: "C# thực chiến từ Level 0 đến Middle",
       type: "pdf",
-      categoryId: "lang-english",
-      path: "hoctieng/mau-tieng-anh.pdf",
-      tags: ["mẫu", "tiếng Anh", "English"],
+      categoryId: "it",
+      path: "IT/CSharp_PhongVan_Zero_Middle_WinForms.pdf",
+      tags: ["C#", "IT", "lập trình"],
       description: ""
     },
     {
