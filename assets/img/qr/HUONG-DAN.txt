@@ -1,0 +1,4 @@
+Đặt ảnh QR (WeChat, Zalo...) vào thư mục này, ví dụ: wechat.png, zalo.png.
+Sau đó khai báo đường dẫn ở trường "qr" trong assets/js/data.js, ví dụ:
+
+  { id: "wechat", name: "WeChat", url: "", handle: "", qr: "assets/img/qr/wechat.png" }

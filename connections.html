@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kết nối – Lucian</title>
+  <meta name="description" content="Giới thiệu ngắn và các nền tảng đang sử dụng.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="connections">
+  <a class="skip-link" href="#main">Bỏ qua, tới nội dung chính</a>
+
+  <header id="site-header" class="site-header"></header>
+
+  <main id="main" class="wrap page page-narrow">
+    <noscript>
+      <p class="notice">Trang này cần bật JavaScript để hiển thị thông tin kết nối.</p>
+    </noscript>
+
+    <h1 class="page-title">Giới thiệu và kết nối</h1>
+    <p class="page-lead" id="profile-intro"></p>
+
+    <h2 class="section-title">Nền tảng</h2>
+    <ul class="item-list" id="platform-list"></ul>
+    <p class="empty-inline" id="platform-empty" hidden>Chưa có nền tảng nào được cập nhật.</p>
+  </main>
+
+  <dialog class="qr-dialog" id="qr-dialog" aria-labelledby="qr-title">
+    <div class="qr-inner">
+      <div class="qr-head">
+        <h2 class="qr-title" id="qr-title"></h2>
+        <button type="button" class="btn" id="qr-close">Đóng</button>
+      </div>
+      <img class="qr-image" id="qr-image" alt="">
+      <p class="qr-error" id="qr-error" hidden>Không tải được ảnh QR. Kiểm tra đường dẫn ảnh trong assets/js/data.js.</p>
+      <p class="qr-handle" id="qr-handle" hidden></p>
+    </div>
+  </dialog>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/connections.js"></script>
+</body>
+</html>
