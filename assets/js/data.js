@@ -93,8 +93,9 @@ window.SITE_DATA = {
      CÁC MỤC DƯỚI ĐÂY LÀ FILE MẪU để kiểm tra chức năng — xóa hoặc thay
      bằng tài liệu thật của bạn. */
   
-     // Python
+  
   documents: [
+    // Python VisionAssembly Library
     {
       id: "GvGluePathAOI",
       title: "Thư viện kiểm tra đường keo GvGluePathAOI",
@@ -165,9 +166,161 @@ window.SITE_DATA = {
       tags: ["mẫu", "记录", "ghi chú"],
       description: ""
     },
+    // H510脚本
+    {
+      id: "H510-ROI",
+      title: "H510-ROI-分割生成",
+      type: "code",
+      categoryId: "code-h510",
+      path: "H510脚本/分割ROI生成_054.py",
+      language: "python",
+      tags: ["H510", "脚本"],
+      description: "H510脚本 分割ROI生成"
+    },
+    {
+      id: "H510-ROI-排线",
+      title: "H510-ROI-排线_562",
+      type: "code",
+      categoryId: "code-h510",
+      path: "H510脚本/分割ROI生成_排线_562.py",
+      language: "python",
+      tags: ["H510", "脚本"],
+      description: "H510脚本 分割ROI生成_排线"
+    },
+    {
+      id: "胶路计算_272",
+      title: "胶路计算_272",
+      type: "code",
+      categoryId: "code-h510",
+      path: "H510脚本/胶路计算_272.py",
+      language: "python",
+      tags: ["H510", "脚本"],
+      description: "H510脚本 胶路计算_272"
+    },
+    {
+      id: "胶重判断",
+      title: "胶重判断",
+      type: "code",
+      categoryId: "code-h510",
+      path: "H510脚本/胶重判断.py",
+      language: "python",
+      tags: ["H510", "脚本"],
+      description: "H510脚本 胶重判断"
+    },
+    {
+      id: "标定_脚本123",
+      title: "标定_脚本123",
+      type: "code",
+      categoryId: "code-h510",
+      path: "H510脚本/标定_脚本123.py",
+      language: "python",
+      tags: ["H510", "脚本"],
+      description: "H510脚本 标定_脚本123"
+    },
+    //Code_Learning
+    {
+      id: "Blob2LineSeg",
+      title: "Blob2LineSeg",
+      type: "code",
+      categoryId: "code-learning",
+      path: "Code_Learning/Blob2LineSeg.py",
+      language: "python",
+      tags: ["Python", "学习"],
+      description: "Tính khoảng cách ngắn nhất và dài nhất từ một blob đến một đoạn thẳng."
+    },
+    {
+      id: "Calibration_9_Steps",
+      title: "Calibration_9_Steps",
+      type: "code",
+      categoryId: "code-learning",
+      path: "Code_Learning/标定显示.py",
+      language: "python",
+      tags: ["Python", "学习"],
+      description: "Hiển thị kết quả 9 bước hiệu chuẩn (Calibration 9 Steps) trong dự án Machine Vision."
+    },
+    {
+      id: "Relate Calibration_9_Steps",
+      title: "Relate Calibration_9_Steps",
+      type: "code",
+      categoryId: "code-learning",
+      path: "Code_Learning/关联显示.py",
+      language: "python",
+      tags: ["Python", "学习"],
+      description: "Hiển thị kết quả hiệu chuẩn liên kết trong dự án Machine Vision."
+    },
+    {
+      id: "Code",
+      title: "Code liên quan đến lượng giác",
+      type: "code",
+      categoryId: "code-learning",
+      path: "Code_Learning/code.py",
+      language: "python",
+      tags: ["Python", "学习"],
+      description: "Các hàm lượng giác."
+    },
+    //校针
+    {
+      id: "校针计算偏差",
+      title: "校针计算偏差",
+      type: "code",
+      categoryId: "code-jiaozhen",
+      path: "校针/校针计算偏差.py",
+      language: "python",
+      tags: ["Python", "校针"],
+      description: "Tính toán độ lệch của 校针."
+    },
+    {
+      id: "校针记录",
+      title: "校针记录",
+      type: "code",
+      categoryId: "code-jiaozhen",
+      path: "校针/校针记录.py",
+      language: "python",
+      tags: ["Python", "校针"],
+      description: "Ghi lại dữ liệu 校针."
+    },
 
-
-
+    //记录
+    {
+      id: "csv记录",
+      title: "csv记录",
+      type: "code",
+      categoryId: "code-jilu",
+      path: "记录/csv记录.py",
+      language: "python",
+      tags: ["Python", "记录"],
+      description: "Ghi lại dữ liệu vào file CSV."
+    },
+    {
+      id: "LOG发送",
+      title: "LOG发送",
+      type: "code",
+      categoryId: "code-jilu",
+      path: "记录/LOG发送.py",
+      language: "python",
+      tags: ["Python", "记录"],
+      description: "Ghi lại dữ liệu 发送 vào file txt."
+    },
+    {
+      id: "LOG接收",
+      title: "LOG接收",
+      type: "code",
+      categoryId: "code-jilu",
+      path: "记录/LOG接收.py",
+      language: "python",
+      tags: ["Python", "记录"],
+      description: "Ghi lại dữ liệu 接收 vào file txt."
+    },
+    {
+      id: "导图指令",
+      title: "导图指令",
+      type: "code",
+      categoryId: "code-jilu",
+      path: "记录/导图指令.py",
+      language: "python",
+      tags: ["Python", "记录"],
+      description: "Code 导图指令."
+    },
     //PDF
     {
       id: "Python-Level0-Middle",
