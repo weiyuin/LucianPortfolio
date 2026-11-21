@@ -391,6 +391,15 @@ window.SITE_DATA = {
       os: "",
       updated: "16/11/2026",
       driveUrl: "https://drive.google.com/file/d/1rU5vVySZKCFi-18LdzeBBHEzUMGbNO8u/view"
+    },
+    {
+      id: "phan-mem-lucianv2",
+      name: "Phần mềm LUCIAN",
+      description: "Phân mềm truyền, nhận thông tin giữa server và client, tạo file Calibration 9 steps dùng trong các dự án Machine Vision.",
+      version: "1.0.1",
+      os: "",
+      updated: "21/11/2026",
+      driveUrl: "https://drive.google.com/file/d/1PJnWrG0XNGNG5yFNVTrs_wU1TYNIVq-q/view?usp=sharing"
     }
   ],
 
